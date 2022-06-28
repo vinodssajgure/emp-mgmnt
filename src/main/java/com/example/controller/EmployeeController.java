@@ -26,7 +26,6 @@ public class EmployeeController {
 	// get list of all employees
 
 	@GetMapping()
-//	@RequestMapping(method = RequestMethod.GET)
 	public List<Employee> fetchEmployeeList() {
 		return employeeService.fetchEmployeeList();
 
